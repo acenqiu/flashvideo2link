@@ -2,7 +2,7 @@ javascript:(function(){
 	if (!window.jQuery) {
 		script=document.createElement( 'script' );
 		script.src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js';
-		script.onload=foo;document.body.appendChild(script);
+		script.onload=c;document.body.appendChild(script);
 	} else {
 		c();
 	} 
